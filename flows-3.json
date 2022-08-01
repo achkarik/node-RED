@@ -1,0 +1,73 @@
+[
+    {
+        "id": "92df8ecd23ea5aad",
+        "type": "tab",
+        "label": "Поток 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "eafdba0194964230",
+        "type": "wirenboard-in",
+        "z": "92df8ecd23ea5aad",
+        "name": "wb6",
+        "server": "6e1cce767b95e908",
+        "channel": [
+            "/devices/wb-mai11_21/controls/IN 1 Temperature"
+        ],
+        "outputAtStartup": true,
+        "x": 250,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "606fc122a9f4b733",
+        "type": "complete",
+        "z": "92df8ecd23ea5aad",
+        "name": "",
+        "scope": [],
+        "uncaught": false,
+        "x": 560,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e523137f046935e6",
+        "type": "catch",
+        "z": "92df8ecd23ea5aad",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 430,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7d5cfd0db6953b15",
+        "type": "status",
+        "z": "92df8ecd23ea5aad",
+        "name": "",
+        "scope": null,
+        "x": 470,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6e1cce767b95e908",
+        "type": "wirenboard-server",
+        "name": "WirenBoard_6",
+        "host": "192.168.10.25",
+        "mqtt_port": "1883",
+        "mqtt_username": "",
+        "mqtt_password": ""
+    }
+]
